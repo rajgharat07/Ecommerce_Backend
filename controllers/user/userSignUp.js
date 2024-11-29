@@ -14,7 +14,7 @@ async function userSignUpController(req,res){
             throw new Error("Already user exits.")
         }
 
-        if(!email){
+        if(!email){ 
            throw new Error("Please provide email")
         }
         if(!password){
