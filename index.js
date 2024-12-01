@@ -13,7 +13,7 @@ app.use(cors({
 app.use(express.json())
 app.use(cookieParser())
 
-app.use("https://ecommerce-backend-gh2o.onrender.com/api",router)
+app.use("https://ecommerce-backend-1-7rjc.onrender.com/api",router)
 
 const PORT = 8080 || process.env.PORT;
 
